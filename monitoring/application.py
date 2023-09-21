@@ -8,7 +8,7 @@ import time
 # Time of delay data collection
 DELAY = 3600
 
-
+print("test")
 # Save history of applications to JSON
 def save_app_history(app_history):
     now = datetime.datetime.now()
