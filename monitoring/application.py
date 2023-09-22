@@ -8,12 +8,12 @@ import time
 # Time of delay data collection
 DELAY = 3600
 
-print("test")
+
 # Save history of applications to JSON
 def save_app_history(app_history):
     now = datetime.datetime.now()
     date_str = now.strftime('%Y-%m-%d')
-    folder_path = 'data/application'
+    folder_path = './data/application'
     output_file = os.path.join(folder_path, f"{date_str}.json")
 
     # Check dir is existed
@@ -66,7 +66,7 @@ def track_app_history():
                         'name': app_name,
                         'time': create_time.strftime('%Y-%m-%d %H:%M:%S'),
                         'exe': exe,
-                        'path': path
+                        'path': path,
                     })
                 except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                     pass
