@@ -1,0 +1,206 @@
+[
+    {
+        "name": "pipewire",
+        "time": "2023-09-26 16:10:42",
+        "exe": "/usr/bin/pipewire",
+        "path": "/home/dias"
+    },
+    {
+        "name": "pipewire-media-session",
+        "time": "2023-09-26 16:10:42",
+        "exe": "/usr/bin/pipewire-media-session",
+        "path": "/home/dias"
+    },
+    {
+        "name": "pulseaudio",
+        "time": "2023-09-26 16:10:42",
+        "exe": "/usr/bin/pulseaudio",
+        "path": "/"
+    },
+    {
+        "name": "gnome-keyring-daemon",
+        "time": "2023-09-26 16:10:42",
+        "exe": "/usr/bin/gnome-keyring-daemon",
+        "path": "/"
+    },
+    {
+        "name": "dbus-daemon",
+        "time": "2023-09-26 16:10:42",
+        "exe": "/usr/bin/dbus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fish",
+        "time": "2023-09-26 16:10:43",
+        "exe": "/usr/bin/fish",
+        "path": "/home/dias"
+    },
+    {
+        "name": "dbus-daemon",
+        "time": "2023-09-26 16:10:43",
+        "exe": "/usr/bin/dbus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-shell",
+        "time": "2023-09-26 16:10:43",
+        "exe": "/usr/bin/gnome-shell",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gjs",
+        "time": "2023-09-26 16:10:44",
+        "exe": "/usr/bin/gjs-console",
+        "path": "/home/dias"
+    },
+    {
+        "name": "sh",
+        "time": "2023-09-26 16:10:44",
+        "exe": "/usr/bin/dash",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-daemon",
+        "time": "2023-09-26 16:10:44",
+        "exe": "/usr/bin/ibus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "snap-store",
+        "time": "2023-09-26 16:10:44",
+        "exe": "/bin/snap-store",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gjs",
+        "time": "2023-09-26 16:10:45",
+        "exe": "/usr/bin/gjs-console",
+        "path": "/home/dias"
+    },
+    {
+        "name": "snapd-desktop-integration",
+        "time": "2023-09-26 16:10:46",
+        "exe": "/bin/snapd-desktop-integration",
+        "path": "/var/snap/snapd-desktop-integration/83"
+    },
+    {
+        "name": "gnome-calendar",
+        "time": "2023-09-26 16:10:47",
+        "exe": "/usr/bin/gnome-calendar",
+        "path": "/home/dias"
+    },
+    {
+        "name": "seahorse",
+        "time": "2023-09-26 16:10:47",
+        "exe": "/usr/bin/seahorse",
+        "path": "/home/dias"
+    },
+    {
+        "name": "java",
+        "time": "2023-09-26 16:10:49",
+        "exe": "/home/dias/.local/share/JetBrains/Toolbox/apps/pycharm-community/jbr/bin/java",
+        "path": "/home/dias"
+    },
+    {
+        "name": "Xwayland",
+        "time": "2023-09-26 16:10:50",
+        "exe": "/usr/bin/Xwayland",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fsnotifier",
+        "time": "2023-09-26 16:10:51",
+        "exe": "/home/dias/.local/share/JetBrains/Toolbox/apps/pycharm-community/bin/fsnotifier",
+        "path": "/home/dias"
+    },
+    {
+        "name": "cat",
+        "time": "2023-09-26 16:10:52",
+        "exe": "/usr/bin/cat",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome_crashpad_handler",
+        "time": "2023-09-26 16:10:52",
+        "exe": "/opt/google/chrome/chrome_crashpad_handler",
+        "path": "/home/dias"
+    },
+    {
+        "name": "nacl_helper",
+        "time": "2023-09-26 16:10:52",
+        "exe": "/opt/google/chrome/nacl_helper",
+        "path": "/proc/3391/fdinfo"
+    },
+    {
+        "name": "jetbrains-toolbox",
+        "time": "2023-09-26 16:10:54",
+        "exe": "/tmp/.mount_jetbra1i5kCP/jetbrains-toolbox",
+        "path": "/tmp/.mount_jetbra1i5kCP"
+    },
+    {
+        "name": "update-notifier",
+        "time": "2023-09-26 16:11:44",
+        "exe": "/usr/bin/update-notifier",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-terminal",
+        "time": "2023-09-26 16:51:47",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-terminal.real",
+        "time": "2023-09-26 16:51:47",
+        "exe": "/usr/bin/gnome-terminal.real",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fish",
+        "time": "2023-09-26 16:51:47",
+        "exe": "/usr/bin/fish",
+        "path": "/home/dias"
+    },
+    {
+        "name": "telegram-desktop",
+        "time": "2023-09-26 16:51:59",
+        "exe": "/snap/telegram-desktop/5088/usr/bin/telegram-desktop",
+        "path": "/home/dias/snap/telegram-desktop/5088/.local/share/TelegramDesktop"
+    },
+    {
+        "name": "snap",
+        "time": "2023-09-26 16:52:02",
+        "exe": "/snap/snapd/20092/usr/bin/snap",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fish",
+        "time": "2023-09-26 17:16:52",
+        "exe": "/usr/bin/fish",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-26 17:34:37",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-26 17:35:34",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-26 17:35:43",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-26 17:35:58",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    }
+]

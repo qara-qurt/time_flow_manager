@@ -4,9 +4,8 @@ import datetime
 import json
 import time
 
-
 # Time of delay data collection
-DELAY = 3600
+DELAY = 600
 
 
 # Save history of applications to JSON
@@ -49,6 +48,7 @@ def save_app_history(app_history):
 # tracking application launch
 def track_app_history():
     app_history = []
+    process_counts = {}
     while True:
         try:
             # Get current process
@@ -57,20 +57,27 @@ def track_app_history():
             # Filter by name and time for write to dict and save it
             for process in all_processes:
                 try:
+                    # Get data from process
                     app_name = process.name()
                     create_time_timestamp = process.create_time()
                     exe = process.exe()
                     path = process.cwd()
                     create_time = datetime.datetime.fromtimestamp(create_time_timestamp)
-                    app_history.append({
-                        'name': app_name,
-                        'time': create_time.strftime('%Y-%m-%d %H:%M:%S'),
-                        'exe': exe,
-                        'path': path,
-                    })
+
+                    # Filter
+                    # Should check default browser and not add
+                    if not is_system_process(process) and app_name != 'chrome':
+                        app_history.append({
+                            'name': app_name,
+                            'time': create_time.strftime('%Y-%m-%d %H:%M:%S'),
+                            'exe': exe,
+                            'path': path,
+                        })
+
                 except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                     pass
 
+            count_of_process()
             # Save history file only if there are new entries
             if app_history:
                 save_app_history(app_history)
@@ -82,3 +89,49 @@ def track_app_history():
         except KeyboardInterrupt:
             save_app_history(app_history)
             break
+
+
+# Find most used - test
+def count_of_process():
+    now = datetime.datetime.now()
+    date_str = now.strftime('%Y-%m-%d')
+    folder_path = './data/application'
+    output_file = os.path.join(folder_path, f"{date_str}.json")
+
+    with open(output_file, 'r') as json_file:
+        data = json.load(json_file)
+
+    process_count = {}
+    for p in data:
+        process_name = p['name']
+        process_time = p['time']
+        process_exe = p['exe']
+        process_path = p['path']
+
+        if process_name not in process_count:
+            process_count[process_name] = []
+
+        process_count[process_name].append({
+            'exe': process_exe,
+            'path': process_path,
+            'time': process_time
+        })
+
+
+# -------------- Filter algorithms ---------------
+
+# Check process is system
+def is_system_process(process):
+    # Define a list of system-related directories
+    system_dirs = ['/usr/lib', '/usr/libexec', '/sbin']
+
+    # Get the path of the executable associated with the process
+    try:
+        process_exe = process.exe()
+        for dir in system_dirs:
+            if process_exe.startswith(dir):
+                return True
+    except (psutil.NoSuchProcess, psutil.AccessDenied):
+        pass
+
+    return False

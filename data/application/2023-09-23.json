@@ -1,0 +1,608 @@
+[
+    {
+        "name": "systemd",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/lib/systemd/systemd",
+        "path": "/"
+    },
+    {
+        "name": "pipewire",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/pipewire",
+        "path": "/home/dias"
+    },
+    {
+        "name": "pipewire-media-session",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/pipewire-media-session",
+        "path": "/home/dias"
+    },
+    {
+        "name": "pulseaudio",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/pulseaudio",
+        "path": "/"
+    },
+    {
+        "name": "gnome-keyring-daemon",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/gnome-keyring-daemon",
+        "path": "/"
+    },
+    {
+        "name": "dbus-daemon",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/dbus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfsd",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfsd",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfsd-fuse",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfsd-fuse",
+        "path": "/"
+    },
+    {
+        "name": "xdg-document-portal",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/xdg-document-portal",
+        "path": "/home/dias"
+    },
+    {
+        "name": "xdg-permission-store",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/xdg-permission-store",
+        "path": "/home/dias"
+    },
+    {
+        "name": "tracker-miner-fs-3",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/tracker-miner-fs-3",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfs-udisks2-volume-monitor",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfs-udisks2-volume-monitor",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfs-afc-volume-monitor",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfs-afc-volume-monitor",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfs-gphoto2-volume-monitor",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfs-gphoto2-volume-monitor",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfs-goa-volume-monitor",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfs-goa-volume-monitor",
+        "path": "/home/dias"
+    },
+    {
+        "name": "goa-daemon",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/goa-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gdm-wayland-session",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gdm-wayland-session",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fish",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/bin/fish",
+        "path": "/home/dias"
+    },
+    {
+        "name": "goa-identity-service",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/goa-identity-service",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfs-mtp-volume-monitor",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gvfs-mtp-volume-monitor",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-session-binary",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gnome-session-binary",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-session-ctl",
+        "time": "2023-09-22 19:49:18",
+        "exe": "/usr/libexec/gnome-session-ctl",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-session-binary",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/gnome-session-binary",
+        "path": "/home/dias"
+    },
+    {
+        "name": "at-spi-bus-launcher",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/at-spi-bus-launcher",
+        "path": "/home/dias"
+    },
+    {
+        "name": "dbus-daemon",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/bin/dbus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-shell",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/bin/gnome-shell",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-shell-calendar-server",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/gnome-shell-calendar-server",
+        "path": "/home/dias"
+    },
+    {
+        "name": "evolution-source-registry",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/evolution-source-registry",
+        "path": "/home/dias"
+    },
+    {
+        "name": "evolution-calendar-factory",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/evolution-calendar-factory",
+        "path": "/home/dias"
+    },
+    {
+        "name": "dconf-service",
+        "time": "2023-09-22 19:49:19",
+        "exe": "/usr/libexec/dconf-service",
+        "path": "/home/dias"
+    },
+    {
+        "name": "evolution-addressbook-factory",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/evolution-addressbook-factory",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfsd-trash",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gvfsd-trash",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gjs",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/bin/gjs-console",
+        "path": "/home/dias"
+    },
+    {
+        "name": "at-spi2-registryd",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/at-spi2-registryd",
+        "path": "/home/dias"
+    },
+    {
+        "name": "sh",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/bin/dash",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-a11y-settings",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-a11y-settings",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-daemon",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/bin/ibus-daemon",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-color",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-color",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-datetime",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-datetime",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-housekeeping",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-housekeeping",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-keyboard",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-keyboard",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-media-keys",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-media-keys",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-power",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-power",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-print-notifications",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-print-notifications",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-rfkill",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-rfkill",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-screensaver-proxy",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-screensaver-proxy",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-sharing",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-sharing",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-smartcard",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-smartcard",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-sound",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-sound",
+        "path": "/home/dias"
+    },
+    {
+        "name": "evolution-alarm-notify",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/evolution-data-server/evolution-alarm-notify",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-wacom",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-wacom",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-disk-utility-notify",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-disk-utility-notify",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-dconf",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/ibus-dconf",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-extension-gtk3",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/ibus-extension-gtk3",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-portal",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/ibus-portal",
+        "path": "/home/dias"
+    },
+    {
+        "name": "snap-store",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/snap/snap-store/959/usr/bin/snap-store",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-printer",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/gsd-printer",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-engine-simple",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/ibus-engine-simple",
+        "path": "/home/dias"
+    },
+    {
+        "name": "xdg-desktop-portal",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/xdg-desktop-portal",
+        "path": "/home/dias"
+    },
+    {
+        "name": "xdg-desktop-portal-gnome",
+        "time": "2023-09-22 19:49:20",
+        "exe": "/usr/libexec/xdg-desktop-portal-gnome",
+        "path": "/home/dias"
+    },
+    {
+        "name": "xdg-desktop-portal-gtk",
+        "time": "2023-09-22 19:49:21",
+        "exe": "/usr/libexec/xdg-desktop-portal-gtk",
+        "path": "/home/dias"
+    },
+    {
+        "name": "snapd-desktop-integration",
+        "time": "2023-09-22 19:49:21",
+        "exe": "/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration",
+        "path": "/var/snap/snapd-desktop-integration/83"
+    },
+    {
+        "name": "gvfsd-metadata",
+        "time": "2023-09-22 19:49:21",
+        "exe": "/usr/libexec/gvfsd-metadata",
+        "path": "/home/dias"
+    },
+    {
+        "name": "telegram-desktop",
+        "time": "2023-09-22 19:49:25",
+        "exe": "/snap/telegram-desktop/5062/usr/bin/telegram-desktop",
+        "path": "/home/dias/snap/telegram-desktop/5062/.local/share/TelegramDesktop"
+    },
+    {
+        "name": "jetbrains-toolbox",
+        "time": "2023-09-22 19:49:30",
+        "exe": "/tmp/.mount_jetbraVfHkmH/jetbrains-toolbox",
+        "path": "/tmp/.mount_jetbraVfHkmH"
+    },
+    {
+        "name": "gnome-calendar",
+        "time": "2023-09-22 19:49:32",
+        "exe": "/usr/bin/gnome-calendar",
+        "path": "/home/dias"
+    },
+    {
+        "name": "Xwayland",
+        "time": "2023-09-22 19:49:34",
+        "exe": "/usr/bin/Xwayland",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gsd-xsettings",
+        "time": "2023-09-22 19:49:34",
+        "exe": "/usr/libexec/gsd-xsettings",
+        "path": "/home/dias"
+    },
+    {
+        "name": "ibus-x11",
+        "time": "2023-09-22 19:49:34",
+        "exe": "/usr/libexec/ibus-x11",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 19:49:39",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/home/dias"
+    },
+    {
+        "name": "cat",
+        "time": "2023-09-22 19:49:39",
+        "exe": "/usr/bin/cat",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome_crashpad_handler",
+        "time": "2023-09-22 19:49:39",
+        "exe": "/opt/google/chrome/chrome_crashpad_handler",
+        "path": "/home/dias"
+    },
+    {
+        "name": "nacl_helper",
+        "time": "2023-09-22 19:49:39",
+        "exe": "/opt/google/chrome/nacl_helper",
+        "path": "/proc/4028/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 19:49:40",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 19:49:43",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "update-notifier",
+        "time": "2023-09-22 19:50:20",
+        "exe": "/usr/bin/update-notifier",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 19:51:40",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 19:52:35",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "seahorse",
+        "time": "2023-09-22 20:03:38",
+        "exe": "/usr/bin/seahorse",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gvfsd-http",
+        "time": "2023-09-22 20:04:44",
+        "exe": "/usr/libexec/gvfsd-http",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:06:09",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:08:15",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:19:30",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:19:46",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:28:53",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:28:55",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-22 20:30:41",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "gjs",
+        "time": "2023-09-23 10:39:52",
+        "exe": "/usr/bin/gjs-console",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:39:55",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:41:31",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:42:43",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:42:49",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "gnome-control-center-search-provider",
+        "time": "2023-09-23 10:43:11",
+        "exe": "/usr/libexec/gnome-control-center-search-provider",
+        "path": "/home/dias"
+    },
+    {
+        "name": "gnome-calculator-search-provider",
+        "time": "2023-09-23 10:43:11",
+        "exe": "/usr/libexec/gnome-calculator-search-provider",
+        "path": "/home/dias"
+    },
+    {
+        "name": "org.gnome.Chara",
+        "time": "2023-09-23 10:43:11",
+        "exe": "/usr/bin/gjs-console",
+        "path": "/home/dias"
+    },
+    {
+        "name": "java",
+        "time": "2023-09-23 10:43:11",
+        "exe": "/home/dias/.local/share/JetBrains/Toolbox/apps/pycharm-community/jbr/bin/java",
+        "path": "/home/dias"
+    },
+    {
+        "name": "fsnotifier",
+        "time": "2023-09-23 10:43:13",
+        "exe": "/home/dias/.local/share/JetBrains/Toolbox/apps/pycharm-community/bin/fsnotifier",
+        "path": "/home/dias"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:43:14",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "chrome",
+        "time": "2023-09-23 10:43:19",
+        "exe": "/opt/google/chrome/chrome",
+        "path": "/proc/4029/fdinfo"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-23 10:43:24",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    },
+    {
+        "name": "python",
+        "time": "2023-09-23 10:43:40",
+        "exe": "/usr/bin/python3.10",
+        "path": "/home/dias/PycharmProjects/timeFlowManager"
+    }
+]
